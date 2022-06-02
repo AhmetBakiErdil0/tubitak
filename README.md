@@ -5,7 +5,7 @@
  
  
  Bu projede ben Arduino Leonardo kollandım fakat kodlarda oynama yapılmadan Mega ve Uno gibi kartlarla da kullanılabilir.
- Eyer daha küçük Arduino kartları veya 3. parti Arduino kartları kullanılırsa pinlerde değişiklik yapılmalıdır şunlar gibi
+ Eğer daha küçük Arduino veya 3. parti Arduino kartları kullanılırsa pinlerde değişiklik yapılmalıdır. Şunlar gibi
  
  Küçük Arduino kartı için(pro mini)
  
@@ -25,7 +25,7 @@ const int echo = 5;
 
 Tabiki ekranı değiştirirsek  kodda ufak bir oynama yapmak gerekir
 
-20x4 bir lcd Ekran için deiştirilecek kod
+20x4 bir lcd Ekran için değiştirilecek kod
 
 LiquidCrystal_I2C lcd(0x27, 20, 4);
 
